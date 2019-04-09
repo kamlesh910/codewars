@@ -1,5 +1,6 @@
 # how to run 
 
-cd ..
+```cd ..
 javac college/*.java
 java college.Admission
+```
