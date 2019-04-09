@@ -1,15 +1,16 @@
 package college;
 
 
-class student {
+class Student {
     
   private int studentid;
   private String name;
   private String gender;
   private int age;
-  student(){}
+    
+  Student(){}
 
-  student(int studentid,String name,String gender,int age){
+  Student(int studentid,String name,String gender,int age){
         this.studentid = studentid;
         this.name = name;
         this.gender = gender;
@@ -50,5 +51,11 @@ class student {
   public void Age(int value)
   {
     this.age = value;
+  }
+
+  public void printpretty(){
+    System.out.println("---------------------------------------");
+    System.out.println("|"+Integer.toString(this.studentid)+"|"+this.name+"|"+this.gender+"|"+Integer.toString(this.age)+"|");
+    System.out.println("---------------------------------------");
   }
 }
