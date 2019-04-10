@@ -1,0 +1,3 @@
+def Descending_Order(num):
+    return int("".join([str(i) for i in sorted([int(i) for i in str(num)], reverse=True)]))
+    
