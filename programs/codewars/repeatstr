@@ -1,0 +1,5 @@
+def repeat_str(repeat, string):
+    main=[]
+    for i in range(repeat):
+        main.append(string)
+    return "".join(main)
