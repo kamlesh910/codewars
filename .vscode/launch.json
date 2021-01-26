@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch twentydo",
+            "request": "launch",
+            "mainClass": "twentydo",
+            "projectName": "codewars_d6cbb2a2"
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}"
